@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Fondo />
+  <div id="app">   
+    <Header />
+    <Navigator />
+    <Container />
   </div>
 </template>
 
 <script>
-import Fondo from './componentes/Fondo.vue'
+
+import Header from './componentes/Header.vue'
+import Navigator from './componentes/Navigator.vue'
+import Container from './componentes/Container.vue'
 
 export default {
   name: 'App',
   components: {
-    Fondo
+    Header,
+    Navigator,
+    Container
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
