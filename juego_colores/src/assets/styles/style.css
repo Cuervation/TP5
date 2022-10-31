@@ -55,9 +55,11 @@ h1 {
 	max-width: 600px;
 }
 #message {
-	color: #ffffff;
+	color: #060606;
 	display: inline-block;
 	width: 20%;
+	text-transform:capitalize;
+	
 }
 
 #messageBox {
